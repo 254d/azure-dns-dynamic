@@ -36,7 +36,7 @@ try {
     $statusCode = [HttpStatusCode]::OK
 } catch {
     # set request body and status code.
-    $body = "Faild. $ipAddr, $zone, $aRecord"
+    $body = "Failed. $ipAddr, $zone, $aRecord"
     $statusCode = [HttpStatusCode]::InternalServerError
 }
 
